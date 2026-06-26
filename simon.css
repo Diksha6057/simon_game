@@ -1,0 +1,50 @@
+body{
+    text-align:center;
+    background:#011F3F;
+}
+
+h1{
+    color:white;
+}
+
+.container{
+    width:400px;
+    margin:auto;
+}
+
+.row{
+    display:flex;
+}
+
+.btn{
+    width:180px;
+    height:180px;
+    margin:10px;
+    border-radius:20px;
+    border:8px solid black;
+}
+
+.green{
+    background:green;
+}
+
+.red{
+    background:red;
+}
+
+.yellow{
+    background:yellow;
+}
+
+.blue{
+    background:blue;
+}
+
+.pressed{
+    box-shadow:0 0 20px white;
+    background:grey;
+}
+
+.game-over{
+    background:red;
+}
